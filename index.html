@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<title>index</title>
+<!-- write your code here -->
+<style>
+  #animation_container, #_preload_div_ {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+  }
+</style>
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="index.js?1725306128845"></script>
+<script>
+// Global Scripts
+	var userName = "";
+var enLang = true;
+var muteAction = false;
+var dimmed = false;
+var soundOn = true;
+var questions = [0, 9];
+var score = 0;
+var ansArr = ["", "", "", "", "", "", "", "", ""]
+var limit = 4;
+//next and prev:
+function move(f = 0) {
+	console.log("move to : ", dimmed, f)
+	if (!dimmed) {
+		createjs.Sound.stop();
+		this.gotoAndStop(f);
+	}
+}
+//language handler
+function changeLangHandler(elements = []) {
+	enLang = !enLang;
+	for (let i = 0; i < elements.length; i++) {
+		elements[i].visible = !elements[i].visible
+	}
+}
+function dimHndler() {
+	dimmed = false;
+}
+function correctAnsHandler(i) {
+	ansArr[i] = "correct";
+}
+function wrongAnsHandler(i) {
+	ansArr[i] = "wrong";
+}
+function PlaySounds(soundName, timeline) {
+	var lan = "";
+	if (enLang) {
+		lan = "English"
+	} else {
+		lan = "Arabic"
+	}
+	createjs.Sound.stop();
+	createjs.Sound.play(lan + soundName).on("complete", function () {
+		if (timeline) {
+			dimmed = false;
+			timeline.gotoAndStop(timeline.currentFrame + 1)
+			console.log("finished")
+		}
+	})
+}
+createjs.Sound.registerSound({
+	id: "Arabic04",
+	src: "Sounds/Task2/ar/04.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic05",
+	src: "Sounds/Task2/ar/05.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic06",
+	src: "Sounds/Task2/ar/06.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic07",
+	src: "Sounds/Task2/ar/07.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic08",
+	src: "Sounds/Task2/ar/08.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic09",
+	src: "Sounds/Task2/ar/09.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic10",
+	src: "Sounds/Task2/ar/10.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic11",
+	src: "Sounds/Task2/ar/11.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic12",
+	src: "Sounds/Task2/ar/12.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic13",
+	src: "Sounds/Task2/ar/13.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic14",
+	src: "Sounds/Task2/ar/14.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic15",
+	src: "Sounds/Task2/ar/15.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic16",
+	src: "Sounds/Task2/ar/16.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic17",
+	src: "Sounds/Task2/ar/17.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic18",
+	src: "Sounds/Task2/ar/18.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic19",
+	src: "Sounds/Task2/ar/19.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic20",
+	src: "Sounds/Task2/ar/20.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic21",
+	src: "Sounds/Task2/ar/retake.mp3"
+});
+createjs.Sound.registerSound({
+	id: "Arabic22",
+	src: "Sounds/Task2/ar/awesome.mp3"
+})
+createjs.Sound.registerSound({
+	id: "English01",
+	src: "Sounds/Task2/eng/01.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English02",
+	src: "Sounds/Task2/eng/02.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English03",
+	src: "Sounds/Task2/eng/03.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English04",
+	src: "Sounds/Task2/eng/04.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English05",
+	src: "Sounds/Task2/eng/05.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English06",
+	src: "Sounds/Task2/eng/06.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English07",
+	src: "Sounds/Task2/eng/07.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English08",
+	src: "Sounds/Task2/eng/08.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English09",
+	src: "Sounds/Task2/eng/09.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English10",
+	src: "Sounds/Task2/eng/10.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English11",
+	src: "Sounds/Task2/eng/11.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English12",
+	src: "Sounds/Task2/eng/12.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English13",
+	src: "Sounds/Task2/eng/13.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English14",
+	src: "Sounds/Task2/eng/14.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English15",
+	src: "Sounds/Task2/eng/15.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English16",
+	src: "Sounds/Task2/eng/16.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English17",
+	src: "Sounds/Task2/eng/17.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English18",
+	src: "Sounds/Task2/eng/18.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English19",
+	src: "Sounds/Task2/eng/19.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English20",
+	src: "Sounds/Task2/eng/20.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English21",
+	src: "Sounds/Task2/eng/retake.mp3"
+});
+createjs.Sound.registerSound({
+	id: "English22",
+	src: "Sounds/Task2/eng/awesome.mp3"
+});</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("0FDC5B707721E7448B5EDCF0EFBE502D");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	var preloaderDiv = document.getElementById("_preload_div_");
+	preloaderDiv.style.display = 'none';
+	dom_overlay_container.style.display = canvas.style.display = 'block';
+	exportRoot = new lib.index();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'both',true,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1024px; height:576px">
+		<canvas id="canvas" width="1024" height="576" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1024px; height:576px; position: absolute; left: 0px; top: 0px; display: none;">
+		</div>
+	</div>
+    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:576px; width: 1024px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1725306128862 style='vertical-align: middle; max-height: 100%'/></div>
+</body>
+</html>
