@@ -145,14 +145,14 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_591 = function() {
+(lib.CachedBmp_631 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_590 = function() {
+(lib.CachedBmp_630 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -432,7 +432,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_589 = function() {
+(lib.CachedBmp_629 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -481,7 +481,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_588 = function() {
+(lib.CachedBmp_628 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
@@ -502,7 +502,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_587 = function() {
+(lib.CachedBmp_627 = function() {
 	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
@@ -620,7 +620,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2671,1134);
 
 
 
-(lib.CachedBmp_586 = function() {
+(lib.CachedBmp_626 = function() {
 	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
@@ -872,7 +872,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2671,1134);
 
 
 
-(lib.CachedBmp_585 = function() {
+(lib.CachedBmp_625 = function() {
 	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
@@ -914,7 +914,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2671,1134);
 
 
 
-(lib.CachedBmp_584 = function() {
+(lib.CachedBmp_624 = function() {
 	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
@@ -928,7 +928,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2671,1134);
 
 
 
-(lib.CachedBmp_583 = function() {
+(lib.CachedBmp_623 = function() {
 	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
@@ -1642,7 +1642,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,2671,1134);
 
 
 
-(lib.CachedBmp_582 = function() {
+(lib.CachedBmp_622 = function() {
 	this.initialize(ss["index_atlas_11"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -3812,7 +3812,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_287();
 	this.instance.setTransform(13.3,11.95,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_587();
+	this.instance_1 = new lib.CachedBmp_627();
 	this.instance_1.setTransform(-0.45,-0.45,0.3333,0.3333);
 
 	this.instance_2 = new lib.CachedBmp_285();
@@ -3833,7 +3833,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7 = new lib.CachedBmp_290();
 	this.instance_7.setTransform(13.3,4.4,0.3333,0.3333);
 
-	this.instance_8 = new lib.CachedBmp_588();
+	this.instance_8 = new lib.CachedBmp_628();
 	this.instance_8.setTransform(-0.45,-0.45,0.3333,0.3333);
 
 	this.instance_9 = new lib.CachedBmp_288();
@@ -3854,7 +3854,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_14 = new lib.CachedBmp_297();
 	this.instance_14.setTransform(13.3,4.4,0.3333,0.3333);
 
-	this.instance_15 = new lib.CachedBmp_589();
+	this.instance_15 = new lib.CachedBmp_629();
 	this.instance_15.setTransform(-0.45,-0.45,0.3333,0.3333);
 
 	this.instance_16 = new lib.CachedBmp_295();
@@ -3966,7 +3966,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_268();
 	this.instance.setTransform(13.85,0,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_586();
+	this.instance_1 = new lib.CachedBmp_626();
 	this.instance_1.setTransform(0,0.55,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -4374,7 +4374,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_585();
+	this.instance = new lib.CachedBmp_625();
 	this.instance.setTransform(2.15,6.2,0.3333,0.3333);
 
 	this.instance_1 = new lib.CachedBmp_229();
@@ -4432,13 +4432,13 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_223();
 	this.instance.setTransform(0.85,-17.9,0.3333,0.3333);
 
-	this.instance_1 = new lib.CachedBmp_583();
+	this.instance_1 = new lib.CachedBmp_623();
 	this.instance_1.setTransform(-81.15,-15,0.3333,0.3333);
 
 	this.instance_2 = new lib.CachedBmp_225();
 	this.instance_2.setTransform(0.85,-17.85,0.3333,0.3333);
 
-	this.instance_3 = new lib.CachedBmp_584();
+	this.instance_3 = new lib.CachedBmp_624();
 	this.instance_3.setTransform(-81.15,-14.95,0.3333,0.3333);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.instance_2}]},1).wait(2));
@@ -29712,7 +29712,7 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 		var gameStage = this;
-		setTimeout(()=>{gameStage.parent.button7.visible = false;},1500)
+		gameStage.parent.button7.visible = false;
 		
 		
 		gameStage.openHighlight.visible = false
@@ -29806,7 +29806,7 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 		var gameStage = this;
-		setTimeout(()=>{gameStage.parent.button6.visible = false;},1500)
+		gameStage.parent.button6.visible = false
 		
 		gameStage.bg.gotoAndStop(0)
 		gameStage.wrong9.addEventListener("click",()=>{
@@ -29971,7 +29971,7 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 		var gameStage = this;
-		//setTimeout(()=>{gameStage.parent.button4.visible = false;},1500)
+		gameStage.parent.button4.visible = false
 		
 		gameStage.wrong7.addEventListener("click",()=>{
 			
@@ -30049,7 +30049,7 @@ if (reversed == null) { reversed = false; }
 	this.frame_1 = function() {
 		this.stop();
 		var gameStage = this;
-		//setTimeout(()=>{gameStage.parent.button3.visible = false;},1500)
+		gameStage.parent.button3.visible = false
 		
 		gameStage.wrong6.addEventListener("click",()=>{
 			
@@ -30128,7 +30128,7 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		var gameStage = this;
 		gameStage.passPlaceholder.visible = true
-		setTimeout(()=>{gameStage.parent.button2.visible = false;},1500)
+		gameStage.parent.button2.visible = false;
 		
 		document.addEventListener('keydown', (event) => {
 			gameStage.passPlaceholder.visible = false;
@@ -30265,7 +30265,7 @@ if (reversed == null) { reversed = false; }
 		this.stop();
 		var gameStage = this;
 		gameStage.emailPlaceholder.visible = true
-		setTimeout(()=>{gameStage.parent.button1.visible = false;},1500)
+		gameStage.parent.button1.visible = false;
 		
 		
 		document.addEventListener('keydown', (event) => {
@@ -35254,14 +35254,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.setTransform(18.75,11.05,1,1,0,0,0,8.6,7.8);
 	this.instance_8.compositeOperation = "multiply";
 
-	this.instance_9 = new lib.CachedBmp_591();
+	this.instance_9 = new lib.CachedBmp_631();
 	this.instance_9.setTransform(0,0,0.2652,0.2652);
 
 	this.instance_10 = new lib.Group_7();
 	this.instance_10.setTransform(74.6,18.45,1,1,0,0,0,2.7,1.8);
 	this.instance_10.alpha = 0.9883;
 
-	this.instance_11 = new lib.CachedBmp_590();
+	this.instance_11 = new lib.CachedBmp_630();
 	this.instance_11.setTransform(36.9,0.3,0.2652,0.2652);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
@@ -39254,7 +39254,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_22 = new lib.CachedBmp_18();
 	this.instance_22.setTransform(347.05,140.35,0.3333,0.3333);
 
-	this.instance_23 = new lib.CachedBmp_582();
+	this.instance_23 = new lib.CachedBmp_622();
 	this.instance_23.setTransform(204.2,141.65,0.3333,0.3333);
 
 	this.shape_1 = new cjs.Shape();
@@ -39306,46 +39306,46 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_271.png?1725307592125", id:"CachedBmp_271"},
-		{src:"images/index_atlas_1.png?1725307590550", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1725307590551", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1725307590551", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png?1725307590551", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png?1725307590552", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png?1725307590552", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png?1725307590552", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png?1725307590552", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png?1725307590553", id:"index_atlas_9"},
-		{src:"images/index_atlas_10.png?1725307590553", id:"index_atlas_10"},
-		{src:"images/index_atlas_11.png?1725307590553", id:"index_atlas_11"},
-		{src:"images/index_atlas_12.png?1725307590553", id:"index_atlas_12"},
-		{src:"images/index_atlas_13.png?1725307590553", id:"index_atlas_13"},
-		{src:"images/index_atlas_14.png?1725307590553", id:"index_atlas_14"},
-		{src:"images/index_atlas_15.png?1725307590554", id:"index_atlas_15"},
-		{src:"images/index_atlas_16.png?1725307590554", id:"index_atlas_16"},
-		{src:"images/index_atlas_17.png?1725307590554", id:"index_atlas_17"},
-		{src:"images/index_atlas_18.png?1725307590554", id:"index_atlas_18"},
-		{src:"images/index_atlas_19.png?1725307590554", id:"index_atlas_19"},
-		{src:"images/index_atlas_20.png?1725307590554", id:"index_atlas_20"},
-		{src:"images/index_atlas_21.png?1725307590555", id:"index_atlas_21"},
-		{src:"images/index_atlas_22.png?1725307590555", id:"index_atlas_22"},
-		{src:"images/index_atlas_23.png?1725307590555", id:"index_atlas_23"},
-		{src:"images/index_atlas_24.png?1725307590555", id:"index_atlas_24"},
-		{src:"images/index_atlas_25.png?1725307590556", id:"index_atlas_25"},
-		{src:"images/index_atlas_26.png?1725307590556", id:"index_atlas_26"},
-		{src:"images/index_atlas_27.png?1725307590556", id:"index_atlas_27"},
-		{src:"images/index_atlas_28.png?1725307590556", id:"index_atlas_28"},
-		{src:"images/index_atlas_29.png?1725307590556", id:"index_atlas_29"},
-		{src:"images/index_atlas_30.png?1725307590557", id:"index_atlas_30"},
-		{src:"images/index_atlas_31.png?1725307590557", id:"index_atlas_31"},
-		{src:"images/index_atlas_32.png?1725307590557", id:"index_atlas_32"},
-		{src:"images/index_atlas_33.png?1725307590557", id:"index_atlas_33"},
-		{src:"images/index_atlas_34.png?1725307590557", id:"index_atlas_34"},
-		{src:"images/index_atlas_35.png?1725307590557", id:"index_atlas_35"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725307592125", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1725307592125", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/textinput.js?1725307592125", id:"an.TextInput"},
-		{src:"components/ui/src/css.js?1725307592125", id:"an.CSS"}
+		{src:"images/CachedBmp_271.png?1725309010145", id:"CachedBmp_271"},
+		{src:"images/index_atlas_1.png?1725309008263", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1725309008264", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1725309008265", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png?1725309008265", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png?1725309008265", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png?1725309008265", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png?1725309008266", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png?1725309008266", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png?1725309008266", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png?1725309008266", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png?1725309008267", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png?1725309008267", id:"index_atlas_12"},
+		{src:"images/index_atlas_13.png?1725309008267", id:"index_atlas_13"},
+		{src:"images/index_atlas_14.png?1725309008267", id:"index_atlas_14"},
+		{src:"images/index_atlas_15.png?1725309008267", id:"index_atlas_15"},
+		{src:"images/index_atlas_16.png?1725309008267", id:"index_atlas_16"},
+		{src:"images/index_atlas_17.png?1725309008267", id:"index_atlas_17"},
+		{src:"images/index_atlas_18.png?1725309008268", id:"index_atlas_18"},
+		{src:"images/index_atlas_19.png?1725309008268", id:"index_atlas_19"},
+		{src:"images/index_atlas_20.png?1725309008268", id:"index_atlas_20"},
+		{src:"images/index_atlas_21.png?1725309008268", id:"index_atlas_21"},
+		{src:"images/index_atlas_22.png?1725309008268", id:"index_atlas_22"},
+		{src:"images/index_atlas_23.png?1725309008269", id:"index_atlas_23"},
+		{src:"images/index_atlas_24.png?1725309008269", id:"index_atlas_24"},
+		{src:"images/index_atlas_25.png?1725309008269", id:"index_atlas_25"},
+		{src:"images/index_atlas_26.png?1725309008269", id:"index_atlas_26"},
+		{src:"images/index_atlas_27.png?1725309008269", id:"index_atlas_27"},
+		{src:"images/index_atlas_28.png?1725309008270", id:"index_atlas_28"},
+		{src:"images/index_atlas_29.png?1725309008270", id:"index_atlas_29"},
+		{src:"images/index_atlas_30.png?1725309008270", id:"index_atlas_30"},
+		{src:"images/index_atlas_31.png?1725309008270", id:"index_atlas_31"},
+		{src:"images/index_atlas_32.png?1725309008270", id:"index_atlas_32"},
+		{src:"images/index_atlas_33.png?1725309008270", id:"index_atlas_33"},
+		{src:"images/index_atlas_34.png?1725309008270", id:"index_atlas_34"},
+		{src:"images/index_atlas_35.png?1725309008271", id:"index_atlas_35"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1725309010145", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1725309010145", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/textinput.js?1725309010145", id:"an.TextInput"},
+		{src:"components/ui/src/css.js?1725309010145", id:"an.CSS"}
 	],
 	preloads: []
 };
