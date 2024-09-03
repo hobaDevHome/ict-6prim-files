@@ -9,11 +9,6 @@
 input {
   border: none;
   padding: 5px;
-  font-size: 24px;
-}
-
-input[type="text"] {
-  font-size: 22px;
 }
 
 input:focus {
@@ -27,14 +22,17 @@ input:focus {
   /* background-color: #F1F3F4; */
   background-color: transparent;
   font-size: 12px;
+  /* color: #868686; */
 }
 
 .ui-textinput3 {
   background-color: transparent;
   font-size: 12px;
+  /* color: #868686; */
 }
 
 .ui-textinput4 {
   background-color: transparent;
   font-size: 12px;
+  /* color: #868686; */
 }
