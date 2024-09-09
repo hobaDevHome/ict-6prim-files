@@ -7,6 +7,7 @@
     />
 
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <meta name="authoring-tool" content="Adobe_Animate_CC" />
     <title>ICT - Prime 6 - Task 3</title>
     <!-- write your code here -->
@@ -19,6 +20,18 @@
         right: 0;
         top: 0;
         bottom: 0;
+      }
+      @media only screen and (orientation: portrait) {
+        body {
+          transform: rotate(-90deg);
+          transform-origin: left top;
+          width: 100vh;
+          height: 100vw;
+          overflow-x: hidden;
+          position: absolute;
+          top: 100%;
+          left: 0;
+        }
       }
     </style>
     <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
